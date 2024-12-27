@@ -1,6 +1,3 @@
-Here is the content converted into `.md` (Markdown) format:
-
-```markdown
 # Virtual Machine
 - A Virtual Machine (VM) is created using virtualization technology, enabling multiple virtual environments to run on a single physical server.
 - Traditional physical servers often underutilize resources since only one operating system and application can run at a time.
@@ -8,8 +5,6 @@ Here is the content converted into `.md` (Markdown) format:
 - A hypervisor is a software or firmware layer that allows multiple virtual machines to be created by logically isolating hardware resources on a physical server.
 - Each virtual machine operates independently, with its own operating system, applications, and resources such as CPU, memory, and storage.
 - Virtualization improves resource utilization, cost efficiency, and flexibility, allowing multiple applications to run simultaneously on different virtual machines.
-
----
 
 ## Why Containers?
 - Even with the introduction of virtual machines, resources were still not fully utilized due to the overhead of running a full operating system on each VM.
