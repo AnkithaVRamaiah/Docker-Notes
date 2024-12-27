@@ -29,5 +29,5 @@
 - A container is a self-contained package that includes the application, libraries, and system dependencies required to run the application.
 - Containers are created using a base image that includes system dependencies and libraries, providing logical isolation for the application.
 - Containers can run on both virtual machines and physical servers, making them highly flexible for deployment.
-```
+
 
