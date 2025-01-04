@@ -127,9 +127,6 @@ Here’s how Docker networks work in this scenario:
 - **Custom Bridge Network**: Used for **isolating services** and ensuring **secure communication** between specific containers, like the **Order Service** and **Order Database Service**.
 
 ---
-Your explanation is almost perfect! Here's a refined version with minor adjustments to make it smoother and more structured:
-
----
 
 **Docker Compose:**
 
@@ -150,10 +147,6 @@ This approach is extremely useful, especially for developers and during testing.
 
 ---
 
-Your explanation is mostly good, but let's refine it for clarity and structure. Here's a clearer and more concise version:
-
----
-
 **Multistage and Distroless Images:**
 
 When we build a Docker image without using a multistage Dockerfile, the image size can increase significantly. This happens because all the dependencies, build tools, and the application code are included in the final image. As a result, the image becomes larger, which can affect performance and memory usage.
@@ -163,10 +156,6 @@ To solve this, we use a **multistage Dockerfile**. In a multistage Dockerfile, w
 Furthermore, we can use **distroless images** in the final stage. Distroless images are minimal images that contain only the application runtime and essential dependencies, leaving out unnecessary parts like package managers or shells. This further reduces the image size, improves security, and helps the application run faster.
 
 By using multistage Dockerfiles and distroless images, we can significantly reduce the image size, leading to faster deployments, lower memory consumption, and better overall performance.
-
----
-
-Your explanation is on the right track, but it can be refined a bit to make it clearer and more professional for an interview. Here’s how you can present it:
 
 ---
 
