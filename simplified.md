@@ -35,10 +35,6 @@ Docker operates on a client-server architecture with three key components:
 
 ---
 
-Your explanation is almost perfect! Here’s the corrected and slightly modified version of the explanation, making sure each network type is explained with relevant services and a clear example of what each service does:
-
----
-
 ### **Food Delivery Application Example – Docker Networks**
 
 Let’s consider a food delivery application that has several services running in different containers, such as:
